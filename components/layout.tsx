@@ -2,7 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-const name = "Sanja Wetzel";
+const name = "Hi, I'm Sanja";
+const subline = "I'm a software engineer based in Leipzig, Germany";
 export const siteTitle = "Sanja Wetzel, Full Stack Web Developer";
 
 export default function Layout({ children, home }) {
@@ -23,7 +24,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className="flex flex-col items-center">
+      <header className="flex flex-col items-center mt-16">
         {home ? (
           <>
             <Image
@@ -34,9 +35,12 @@ export default function Layout({ children, home }) {
               width={244}
               alt={name}
             />
-            <h1 className="text-4xl font-extrabold tracking-tighter my-4 mx-0">
+            <h1 className="text-6xl font-extrabold tracking-tighter my-4 mx-0">
               {name}
             </h1>
+            <h3 className="text-2xl font-semibold tracking-tighter text-center mx-0">
+              {subline}
+            </h3>
           </>
         ) : (
           <>
@@ -52,22 +56,10 @@ export default function Layout({ children, home }) {
                 />
               </a>
             </Link>
-            <h2 className="text-2xl my-4 mx-0">
-              <Link href="/">
-                <a className="text-current">{name}</a>
-              </Link>
-            </h2>
           </>
         )}
       </header>
       <main>{children}</main>
-      {!home && (
-        <div className="mt-12">
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
     </div>
   );
 }
