@@ -10,7 +10,7 @@ export default function AboutMe() {
         <title>About Me</title>
       </Head>
       <Navbar></Navbar>
-      <Layout>
+      <Layout home>
         <div className="container mx-auto mt-12 mx-8">
           <section className="text-lg container mx-auto px-48 pb-24">
             <p>

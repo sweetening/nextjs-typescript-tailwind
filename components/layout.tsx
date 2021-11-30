@@ -6,6 +6,7 @@ const name = "Hi, I'm Sanja";
 const subline = "I'm a software engineer based in Leipzig, Germany";
 export const siteTitle = "Sanja Wetzel, Full Stack Web Developer";
 
+//@ts-ignore
 export default function Layout({ children, home }) {
   return (
     <div className="container mx-auto">
