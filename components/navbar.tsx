@@ -11,7 +11,7 @@ export default function Navbar() {
                 <Link href="/">
                   <a className="flex-shrink-0">
                     <svg
-                      className="text-yellow-600 w-8 mr-2 fill-current cursor-pointer hover:text-purple-500"
+                      className="text-yellow-500 w-8 mr-2 fill-current cursor-pointer hover:text-purple-500"
                       xmlns="http://www.w3.org/2000/svg"
                       data-name="Capa 1"
                       viewBox="0 0 16.16 12.57"

@@ -15,10 +15,22 @@ export default function AboutMe() {
           <section className="text-lg container mx-auto px-48 pb-24">
             <p>
               In Spring 2020, after 17 years of working in the hospitality
-              industry and a Bachelor of Music degree in classical voice
-              performance from San Francisco State University, I began my career
-              in web development by joining Le Wagon Berlin for a 9 week
-              intensive bootcamp. I studied{" "}
+              industry and a{" "}
+              <a
+                href="https://youtu.be/0usF9fycCSE"
+                className="text-purple-900 font-extrabold tracking-tight"
+              >
+                Bachelor of Music
+              </a>{" "}
+              in classical voice performance from San Francisco State
+              University, I began my career in web development by joining{" "}
+              <a
+                href="https://www.lewagon.com/berlin"
+                className="text-purple-900 font-extrabold tracking-tight"
+              >
+                Le Wagon Berlin
+              </a>{" "}
+              for a 9 week intensive bootcamp. I studied{" "}
               <b>
                 Ruby, Ruby on Rails, Javascript, HTML5, CSS3, SCSS, SQLite,
                 PostgreSQL, git, Github, Heroku, REST,{" "}
@@ -30,9 +42,15 @@ export default function AboutMe() {
             </p>
             <br></br>
             <p>
-              I continued my studies with University of Helsinki's Full Stack
-              Open 2020 program, a Javascript-based web development course
-              focusing on <b>React, Redux, node.js, MongoDB, GraphQL,</b> and{" "}
+              I continued my studies with University of Helsinki's{" "}
+              <a
+                href="https://fullstackopen.com/en/"
+                className="text-purple-900 font-extrabold tracking-tight"
+              >
+                Full Stack Open
+              </a>{" "}
+              2020 program, a Javascript-based web development course focusing
+              on <b>React, Redux, node.js, MongoDB, GraphQL,</b> and{" "}
               <b> Typescript</b>.
             </p>
             <br></br>
@@ -65,16 +83,16 @@ export default function AboutMe() {
               people and organizations that share a strong commitment to social
               causes, particularly those that create opportunities for trans and
               nonbinary people and women globally. If you would like to speak
-              more about building a website or app together, please get in
-              touch!
+              more about building a website or app together, singing together,
+              or going for a bike ride, please get in touch!
             </p>
           </section>
           <h2 mt-16>
             {/* // To add attributes like className, target, rel, etc.
       // add them to the a tag, not to the  Link tag. */}
             <Link href="/about-me">
-              <a className="mx-8 text-purple-900 font-extrabold tracking-tight">
-                Back to top
+              <a className="mx-8 text-purple-900 font-extrabold tracking-tight pb-8">
+                ^ Back to top
               </a>
             </Link>
           </h2>
