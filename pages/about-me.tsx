@@ -12,7 +12,7 @@ export default function AboutMe() {
       <Navbar></Navbar>
       <Layout home>
         <div className="container mx-auto mt-12 mx-8">
-          <section className="text-lg container mx-auto px-48 pb-24">
+          <section className="text-lg container mx-auto md:px-48 px-24 pb-24">
             <p>
               In Spring 2020, after 17 years of working in the hospitality
               industry and a{" "}
