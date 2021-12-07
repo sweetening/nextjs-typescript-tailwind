@@ -16,6 +16,7 @@ export default function Form() {
                 <input
                   type="text"
                   id="contact-form-name"
+                  name="name"
                   className=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
                   placeholder="name"
                 />
@@ -24,8 +25,9 @@ export default function Form() {
             <div className="col-span-2 lg:col-span-1">
               <div className=" relative ">
                 <input
-                  type="text"
+                  type="email"
                   id="contact-form-email"
+                  name="_replyto"
                   className=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
                   placeholder="email"
                 />
