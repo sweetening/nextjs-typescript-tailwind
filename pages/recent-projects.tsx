@@ -17,13 +17,6 @@ export default function RecentProjects() {
           </h1>
           <Cards></Cards>
         </section>
-        <h2 mt-8>
-          <Link href="/about-me">
-            <a className="mx-8 text-purple-900 font-extrabold tracking-tight pb-8">
-              ^ Back to top
-            </a>
-          </Link>
-        </h2>
       </div>
     </>
   );

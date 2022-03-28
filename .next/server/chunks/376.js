@@ -59,7 +59,7 @@ function Layout({ children , home  }) {
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_image__WEBPACK_IMPORTED_MODULE_2__["default"], {
                             priority: true,
                             src: "/images/profile.jpg",
-                            className: "rounded-full shadow-lg",
+                            className: "rounded-full shadow-md",
                             height: 244,
                             width: 244,
                             alt: name
@@ -80,7 +80,7 @@ function Layout({ children , home  }) {
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_image__WEBPACK_IMPORTED_MODULE_2__["default"], {
                                 priority: true,
                                 src: "/images/profile.jpg",
-                                className: "rounded-full shadow-lg",
+                                className: "rounded-full shadow-md",
                                 height: 208,
                                 width: 208,
                                 alt: name

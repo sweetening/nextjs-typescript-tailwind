@@ -8,6 +8,7 @@ export default function Cards() {
               <a
                 href="https://fantastax.herokuapp.com/"
                 className="w-full block h-full"
+                target="_blank"
               >
                 <img
                   alt="Fantastax"
@@ -34,6 +35,7 @@ export default function Cards() {
               <a
                 href="http://www.welcome-mentors.com/"
                 className="w-full block h-full"
+                target="_blank"
               >
                 <img
                   alt="Welcome Mentors"
@@ -60,6 +62,7 @@ export default function Cards() {
               <a
                 href="https://bike-match-sweetening.herokuapp.com/"
                 className="w-full block h-full"
+                target="_blank"
               >
                 <img
                   alt="Bike Match"
@@ -74,9 +77,10 @@ export default function Cards() {
                     Bike Match
                   </p>
                   <p className="text-gray-400 dark:text-gray-300 font-light text-sm">
-                    Bike Match is a <b>Ruby on Rails</b> AirBnB clone built in
-                    one week which pairs cyclists in Berlin with bikes for rent
-                    in their preferred size and style.
+                    Bike Match is a <b>Ruby on Rails</b> AirBnB clone team
+                    project built in one week which pairs cyclists in Berlin
+                    with bikes for rent in their preferred size and style,
+                    featuring an interactive map.
                   </p>
                 </div>
               </a>
