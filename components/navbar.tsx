@@ -4,14 +4,14 @@ export default function Navbar() {
   return (
     <>
       <div>
-        <nav className="bg-nav-pattern dark:bg-gray-800">
-          <div className="max-w-7xl mx-auto px-8">
+        <nav className="bg-none">
+          <div className="w-full mx-auto px-8">
             <div className="flex items-center justify-between h-16">
               <div className="w-full justify-between flex items-center">
                 <Link href="/">
                   <a className="flex-shrink-0">
                     <svg
-                      className="text-yellow-500 w-8 mr-2 fill-current cursor-pointer hover:text-purple-500"
+                      className="text-black-800 w-8 mr-2 fill-current cursor-pointer hover:text-purple-500"
                       xmlns="http://www.w3.org/2000/svg"
                       data-name="Capa 1"
                       viewBox="0 0 16.16 12.57"
@@ -25,19 +25,19 @@ export default function Navbar() {
                 <div className="hidden md:block">
                   <div className="ml-10 flex items-baseline space-x-4">
                     <a
-                      className="text-lg uppercase mx-3 text-purple-800 tracking-wide cursor-pointer hover:text-white"
+                      className="text-lg uppercase mx-3 text-black-800 tracking-wide cursor-pointer hover:text-purple-500"
                       href="/about-me"
                     >
                       About Me
                     </a>
                     <a
-                      className="text-lg uppercase mx-3 text-purple-800 tracking-wide cursor-pointer hover:text-white"
+                      className="text-lg uppercase mx-3 text-black-800 tracking-wide cursor-pointer hover:text-purple-500"
                       href="/recent-projects"
                     >
                       Recent Projects
                     </a>
                     <a
-                      className="text-lg uppercase mx-3 text-purple-800 tracking-wide cursor-pointer hover:text-white"
+                      className="text-lg uppercase mx-3 text-black-800 tracking-wide cursor-pointer hover:text-purple-500"
                       href="/contact"
                     >
                       Contact
@@ -53,19 +53,19 @@ export default function Navbar() {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <a
-                className="text-lg uppercase mx-3 text-purple-500 tracking-wide cursor-pointer hover:text-white"
+                className="text-lg uppercase mx-3 text-black-800 tracking-wide cursor-pointer hover:text-purple-500"
                 href="/about-me"
               >
                 About Me
               </a>
               <a
-                className="text-lg uppercase mx-3 text-purple-500 tracking-wide cursor-pointer hover:text-white"
+                className="text-lg uppercase mx-3 text-black-800 tracking-wide cursor-pointer hover:text-purple-500"
                 href="/recent-projects"
               >
                 Recent Projects
               </a>
               <a
-                className="text-lg uppercase mx-3 text-purple-500 tracking-wide cursor-pointer hover:text-white"
+                className="text-lg uppercase mx-3 text-black-800 tracking-wide cursor-pointer hover:text-purple-500"
                 href="/contact"
               >
                 Contact

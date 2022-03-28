@@ -13,7 +13,7 @@ function SweeteningApp({ Component, pageProps }: AppProps) {
           href="images/favicon.png"
         />
       </Head>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }

@@ -88,8 +88,6 @@ export default function AboutMe() {
             </p>
           </section>
           <h2 mt-16>
-            {/* // To add attributes like className, target, rel, etc.
-      // add them to the a tag, not to the  Link tag. */}
             <Link href="/about-me">
               <a className="mx-8 text-purple-900 font-extrabold tracking-tight pb-8">
                 ^ Back to top

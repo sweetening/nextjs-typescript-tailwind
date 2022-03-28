@@ -32,33 +32,6 @@ export default function Cards() {
             </div>
             <div className="overflow-hidden shadow-lg rounded-lg h-90 w-90 md:w-80 cursor-pointer m-auto">
               <a
-                href="https://twocycle.herokuapp.com/"
-                className="w-full block h-full"
-              >
-                <img
-                  alt="Twocycle"
-                  src="/images/twocycle.png"
-                  className="max-h-90 w-full object-cover"
-                />
-                <div className="bg-white dark:bg-gray-800 w-full p-4">
-                  <p className="text-purple-800 text-md tracking-widest font-medium">
-                    Ruby on Rails
-                  </p>
-                  <p className="text-gray-800 font-bold dark:text-white text-xl font-medium mb-2">
-                    Twocycle
-                  </p>
-                  <p className="text-gray-400 dark:text-gray-300 font-light text-sm">
-                    Twocycle is a <b>mobile Rails app</b> designed to promote
-                    the circular economy by connecting users who wish to repair
-                    or recycle broken electronics with bicycle couriers and
-                    local repair shops or recycling facilities. Built for Athena
-                    Hack 2021
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div className="overflow-hidden shadow-lg rounded-lg h-90 w-90 md:w-80 cursor-pointer m-auto">
-              <a
                 href="http://www.welcome-mentors.com/"
                 className="w-full block h-full"
               >
