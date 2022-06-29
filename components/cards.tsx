@@ -33,7 +33,7 @@ export default function Cards() {
             </div>
             <div className="overflow-hidden shadow-lg rounded-lg h-90 w-90 md:w-80 cursor-pointer m-auto">
               <a
-                href="http://www.welcome-mentors.com/"
+                href="https://welcome.proctor-webworks.com/"
                 className="w-full block h-full"
                 target="_blank"
               >
