@@ -10,7 +10,7 @@ export default function RecentProjects() {
         <title>Recent Projects</title>
       </Head>
       <Navbar></Navbar>
-      <div className="container mx-auto mt-12 mx-8">
+      <div className="container mx-auto mt-12">
         <section className="flex flex-col items-center mt-24">
           <h1 className="text-2xl font-extrabold tracking-tighter my-4 mx-0">
             Here's what I've been working on

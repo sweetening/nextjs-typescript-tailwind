@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/images/profile-dots-round.png"
               className="rounded-full shadow-md"
               height={244}
               width={244}
@@ -49,7 +49,7 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src="/images/profile.jpg"
+                  src="/images/profile-dots-round.png"
                   className="rounded-full shadow-md"
                   height={208}
                   width={208}

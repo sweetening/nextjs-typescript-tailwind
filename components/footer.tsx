@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="pt-8 flex max-w-xs mx-auto items-center justify-between">
             <a
               href="https://github.com/sweetening"
-              className="text-gray-600 hover:text-purple-500 dark:hover:text-white transition-colors duration-200"
+              className="text-gray-600 hover:text-purple-500 dark:hover:text-white transition-colors duration-200 hover:scale-y-50"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ export default function Footer() {
             </a>
             <a
               href="https://www.linkedin.com/in/sanja-wetzel"
-              className="text-gray-600 hover:text-purple-500 dark:hover:text-white transition-colors duration-200"
+              className="text-gray-600 hover:text-purple-500 dark:hover:text-white transition-colors duration-200 hover:scale-y-50"
             >
               <svg
                 width="20"
@@ -36,7 +36,7 @@ export default function Footer() {
             </a>
             <a
               href="https://elliottsgirlschorus.bandcamp.com/album/elliotts-girls-chorus"
-              className="text-gray-600 hover:text-purple-500 dark:hover:text-white transition-colors duration-200"
+              className="text-gray-600 hover:text-purple-500 dark:hover:text-white transition-colors duration-200 hover:scale-y-50"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

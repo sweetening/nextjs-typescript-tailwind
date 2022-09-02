@@ -4,7 +4,7 @@ export default function Cards() {
       <div className="w-full p-12">
         <div className="header flex items-end justify-center mb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12">
-            <div className="overflow-hidden shadow-lg rounded-lg h-90 w-90 md:w-80 cursor-pointer m-auto">
+            <div className="overflow-hidden shadow-lg rounded-lg h-90 w-90 md:w-80 cursor-pointer m-auto hover:scale-y-50">
               <a
                 href="https://fantastax.herokuapp.com/"
                 className="w-full block h-full"
@@ -19,7 +19,7 @@ export default function Cards() {
                   <p className="text-purple-800 text-md tracking-widest font-medium">
                     React
                   </p>
-                  <p className="text-gray-800 font-bold dark:text-white text-xl font-medium mb-2">
+                  <p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
                     Fantastax
                   </p>
                   <p className="text-gray-400 dark:text-gray-300 font-light text-sm">
@@ -31,7 +31,7 @@ export default function Cards() {
                 </div>
               </a>
             </div>
-            <div className="overflow-hidden shadow-lg rounded-lg h-90 w-90 md:w-80 cursor-pointer m-auto">
+            <div className="overflow-hidden shadow-lg rounded-lg h-90 w-90 md:w-80 cursor-pointer m-auto hover:scale-y-50">
               <a
                 href="https://welcome.proctor-webworks.com/"
                 className="w-full block h-full"
@@ -46,7 +46,7 @@ export default function Cards() {
                   <p className="text-purple-800 text-md tracking-widest font-medium">
                     Ruby on Rails
                   </p>
-                  <p className="text-gray-800 font-bold dark:text-white text-xl font-medium mb-2">
+                  <p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
                     Welcome
                   </p>
                   <p className="text-gray-400 dark:text-gray-300 font-light text-sm">
@@ -58,7 +58,7 @@ export default function Cards() {
                 </div>
               </a>
             </div>
-            <div className="overflow-hidden shadow-lg rounded-lg h-90 w-90 md:w-80 cursor-pointer m-auto">
+            <div className="overflow-hidden shadow-lg rounded-lg h-90 w-90 md:w-80 cursor-pointer m-auto hover:scale-y-50">
               <a
                 href="https://bike-match-sweetening.herokuapp.com/"
                 className="w-full block h-full"
@@ -73,7 +73,7 @@ export default function Cards() {
                   <p className="text-purple-800 text-md tracking-widest font-medium">
                     Ruby on Rails
                   </p>
-                  <p className="text-gray-800 font-bold dark:text-white text-xl font-medium mb-2">
+                  <p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
                     Bike Match
                   </p>
                   <p className="text-gray-400 dark:text-gray-300 font-light text-sm">

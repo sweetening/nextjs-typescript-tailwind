@@ -11,14 +11,14 @@ export default function AboutMe() {
       </Head>
       <Navbar></Navbar>
       <Layout home>
-        <div className="container mx-auto mt-12 mx-8">
-          <section className="text-lg container mx-auto md:px-48 px-24 pb-24">
+        <div className="container mx-auto mt-12">
+          <section className="text-lg container mx-auto md:px-48 px-12 pb-24">
             <p>
               In Spring 2020, after 17 years of working in the hospitality
               industry and a{" "}
               <a
                 href="https://youtu.be/0usF9fycCSE"
-                className="text-purple-900 font-extrabold tracking-tight"
+                className="text-purple-900 font-bold tracking-tight"
               >
                 Bachelor of Music
               </a>{" "}
@@ -26,7 +26,7 @@ export default function AboutMe() {
               University, I began my career in web development by joining{" "}
               <a
                 href="https://www.lewagon.com/berlin"
-                className="text-purple-900 font-extrabold tracking-tight"
+                className="text-purple-900 font-bold tracking-tight"
               >
                 Le Wagon Berlin
               </a>{" "}
@@ -45,13 +45,12 @@ export default function AboutMe() {
               I continued my studies with University of Helsinki's{" "}
               <a
                 href="https://fullstackopen.com/en/"
-                className="text-purple-900 font-extrabold tracking-tight"
+                className="text-purple-900 font-bold tracking-tight"
               >
                 Full Stack Open
               </a>{" "}
               2020 program, a Javascript-based web development course focusing
-              on <b>React, Redux, node.js, MongoDB, GraphQL,</b> and{" "}
-              <b> Typescript</b>.
+              on <b>React, Redux,</b> and <b> Typescript</b>.
             </p>
             <br></br>
             <p>
@@ -59,7 +58,7 @@ export default function AboutMe() {
               education with Udemy and{" "}
               <a
                 href="https://wesbos.com/"
-                className="text-purple-900 font-extrabold tracking-tight"
+                className="text-purple-900 font-bold tracking-tight"
               >
                 Wes Bos
               </a>{" "}
@@ -70,7 +69,7 @@ export default function AboutMe() {
               Presently I am working at{" "}
               <a
                 href="https://www.spreadshirt.de/selbst-gestalten"
-                className="text-purple-900 font-extrabold tracking-tight"
+                className="text-purple-900 font-bold tracking-tight"
               >
                 Spreadshirt
               </a>{" "}
@@ -89,7 +88,7 @@ export default function AboutMe() {
           </section>
           <h2 mt-16>
             <Link href="/about-me">
-              <a className="mx-8 text-purple-900 font-extrabold tracking-tight pb-8">
+              <a className="mx-8 text-purple-900 font-bold tracking-tight pb-8">
                 ^ Back to top
               </a>
             </Link>
