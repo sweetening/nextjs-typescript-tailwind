@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 
 const name = "Hi, I'm Sanja";
 const subline = "I'm a software engineer based in Leipzig, Germany";

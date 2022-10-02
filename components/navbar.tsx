@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="max-w-[1280px] m-auto flex justify-between items-center p-4">
         <a href="/">
           <>
-            <span className="flex font-3xl cursor-pointer hover:text-purple-500">
+            <span className="flex font-3xl cursor-pointer">
               <svg
                 className="text-black w-8 mr-2 fill-current hover:text-purple-500"
                 xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,9 @@ const Navbar = () => {
                 <path d="M14.02 4.77v7.8H9.33V8.8h-2.5v3.77H2.14v-7.8h11.88z"></path>
                 <path d="M16.16 5.82H0L8.08 0l8.08 5.82z"></path>
               </svg>
-              <h1 className="font-bold text-3xl text-black">Home</h1>
+              <h1 className="font-bold text-3xl text-black hover:text-purple-500">
+                Home
+              </h1>
             </span>
           </>
         </a>
@@ -40,8 +42,6 @@ const Navbar = () => {
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
-
-        {/* Mobile Menu */}
         <div onClick={handleMobile} className="block sm:hidden z-20">
           {isMobile ? (
             <AiOutlineClose
