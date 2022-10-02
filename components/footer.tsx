@@ -6,12 +6,13 @@ export default function Footer() {
           <div className="pt-8 flex max-w-xs mx-auto items-center justify-between">
             <a
               href="https://github.com/sweetening"
-              className="transition ease-in-out delay-150 text-gray-600 hover:text-purple-500 dark:hover:text-white duration-200 hover:-translate-y-1 hover:scale-110"
+              className="transition ease-in-out delay-50 text-gray-600 hover:text-purple-500 duration-200"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
+                width="24"
+                height="24"
+                aria-label="github"
                 fill="currentColor"
                 className="text-xl hover:text-purple-500 dark:hover:text-white transition-colors duration-200"
                 viewBox="0 0 1792 1792"
@@ -21,11 +22,12 @@ export default function Footer() {
             </a>
             <a
               href="https://www.linkedin.com/in/sanja-wetzel"
-              className="transition ease-in-out delay-150 text-gray-600 hover:text-purple-500 dark:hover:text-white duration-200 hover:-translate-y-1 hover:scale-110"
+              className="transition ease-in-out delay-50 text-gray-600 hover:text-purple-500 duration-200"
             >
               <svg
-                width="20"
-                height="20"
+                width="24"
+                height="24"
+                aria-label="linked in"
                 fill="currentColor"
                 className="text-xl hover:text-purple-500 dark:hover:text-white transition-colors duration-200"
                 viewBox="0 0 1792 1792"
@@ -36,14 +38,15 @@ export default function Footer() {
             </a>
             <a
               href="https://elliottsgirlschorus.bandcamp.com/album/elliotts-girls-chorus"
-              className="transition ease-in-out delay-150 text-gray-600 hover:text-purple-500 dark:hover:text-white duration-200 hover:-translate-y-1 hover:scale-110"
+              className="transition ease-in-out delay-50 text-gray-600 hover:text-purple-500 duration-200"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true"
                 role="img"
-                width="20"
-                height="20"
+                width="24"
+                height="24"
+                aria-label="bandcamp"
                 preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 1792 1792"
               >

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
+import { GrLinkTop } from "react-icons/gr";
 import Layout from "../components/layout";
 
 export default function AboutMe() {
@@ -10,7 +10,7 @@ export default function AboutMe() {
       </Head>
       <Layout home>
         <div className="container mx-auto mt-12">
-          <section className="text-lg container mx-auto md:px-48 px-12 pb-24">
+          <section className="text-lg container mx-auto md:px-40 px-12 pb-20">
             <p>
               In Spring 2020, after many years of experience in the hospitality
               industry and a{" "}
@@ -84,13 +84,13 @@ export default function AboutMe() {
               or going for a bike ride, please get in touch!
             </p>
           </section>
-          <h2 mt-16>
-            <Link href="/about-me">
-              <a className="mx-8 text-purple-900 font-bold tracking-tight pb-8">
-                ^ Back to top
-              </a>
-            </Link>
-          </h2>
+          <a
+            href="/about-me"
+            className="flex md:px-40 px-12 text-purple-900 font-bold tracking-tight pb-8"
+          >
+            <GrLinkTop className="mr-2 mt-1" />
+            <h2>Back to top</h2>
+          </a>
         </div>
       </Layout>
     </>

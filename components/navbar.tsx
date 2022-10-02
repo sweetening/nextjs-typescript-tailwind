@@ -42,7 +42,7 @@ const Navbar = () => {
         </ul>
 
         {/* Mobile Menu */}
-        <div onClick={handleMobile} className="block sm:hidden z-10">
+        <div onClick={handleMobile} className="block sm:hidden z-20">
           {isMobile ? (
             <AiOutlineClose
               size={28}
@@ -60,8 +60,8 @@ const Navbar = () => {
         <div
           className={
             isMobile
-              ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-white text-center ease-in duration-300"
-              : "hidden absolute top-0 left-[-100%] right-0 bottom-0 justify-center items-center w-full h-screen bg-black text-white text-center ease-in duration-300"
+              ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen z-10 bg-black text-white text-center ease-in duration-300"
+              : "hidden absolute top-0 left-[-100%] right-0 bottom-0 justify-center items-center w-full h-screen z-10 bg-black text-white text-center ease-in duration-300"
           }
         >
           <ul>

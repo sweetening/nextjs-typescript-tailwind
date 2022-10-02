@@ -16,12 +16,12 @@ export default function Cards() {
                   className="max-h-90 w-full object-cover"
                 />
                 <div className="bg-white dark:bg-gray-800 w-full p-4">
-                  <p className="text-purple-800 text-md tracking-widest font-medium">
-                    React
-                  </p>
-                  <p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
+                  <h2 className="text-gray-800 dark:text-white text-xl font-medium">
                     Fantastax
-                  </p>
+                  </h2>
+                  <h3 className="text-purple-800 text-md tracking-widest font-medium mb-2">
+                    React
+                  </h3>
                   <p className="text-gray-400 dark:text-gray-300 font-light text-sm">
                     Fantastax is a <b>responsive React app</b> built with{" "}
                     <b>Styled Components</b> and <b>CSS Modules</b>. Part of a
@@ -43,12 +43,12 @@ export default function Cards() {
                   className="max-h-90 w-full object-cover"
                 />
                 <div className="bg-white dark:bg-gray-800 w-full p-4">
-                  <p className="text-purple-800 text-md tracking-widest font-medium">
-                    Ruby on Rails
-                  </p>
-                  <p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
+                  <h2 className="text-gray-800 dark:text-white text-xl font-medium">
                     Welcome
-                  </p>
+                  </h2>
+                  <h3 className="text-purple-800 text-md tracking-widest font-medium mb-2">
+                    Ruby on Rails
+                  </h3>
                   <p className="text-gray-400 dark:text-gray-300 font-light text-sm">
                     Welcome is a <b>Rails web app</b> designed to help working
                     professionals relocating to Berlin by providing useful
@@ -70,12 +70,12 @@ export default function Cards() {
                   className="max-h-90 w-full object-cover"
                 />
                 <div className="bg-white dark:bg-gray-800 w-full p-4">
-                  <p className="text-purple-800 text-md tracking-widest font-medium">
-                    Ruby on Rails
-                  </p>
-                  <p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
+                  <h2 className="text-gray-800 dark:text-white text-xl font-medium">
                     Bike Match
-                  </p>
+                  </h2>
+                  <h3 className="text-purple-800 text-md tracking-widest font-medium mb-2">
+                    Ruby on Rails
+                  </h3>
                   <p className="text-gray-400 dark:text-gray-300 font-light text-sm">
                     Bike Match is a <b>Ruby on Rails</b> AirBnB clone team
                     project built in one week which pairs cyclists in Berlin

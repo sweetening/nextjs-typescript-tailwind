@@ -31,7 +31,7 @@ export default function Layout({ children, home }) {
             <Image
               priority
               src="/images/profile-dots-round.png"
-              className="rounded-full shadow-md"
+              className="rounded-full shadow-md z-2"
               height={244}
               width={244}
               alt={name}
@@ -44,20 +44,14 @@ export default function Layout({ children, home }) {
             </h3>
           </>
         ) : (
-          <>
-            <Link href="/">
-              <a>
-                <Image
-                  priority
-                  src="/images/profile-dots-round.png"
-                  className="rounded-full shadow-md"
-                  height={208}
-                  width={208}
-                  alt={name}
-                />
-              </a>
-            </Link>
-          </>
+          <Image
+            priority
+            src="/images/profile-dots-round.png"
+            className="rounded-full shadow-md z-2"
+            height={208}
+            width={208}
+            alt={name}
+          />
         )}
       </header>
       <main>{children}</main>
