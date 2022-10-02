@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import Layout from "../components/layout";
-import Navbar from "../components/navbar";
 
 export default function AboutMe() {
   return (
@@ -9,12 +8,11 @@ export default function AboutMe() {
       <Head>
         <title>About Me</title>
       </Head>
-      <Navbar></Navbar>
       <Layout home>
         <div className="container mx-auto mt-12">
           <section className="text-lg container mx-auto md:px-48 px-12 pb-24">
             <p>
-              In Spring 2020, after 17 years of working in the hospitality
+              In Spring 2020, after many years of experience in the hospitality
               industry and a{" "}
               <a
                 href="https://youtu.be/0usF9fycCSE"
@@ -50,19 +48,19 @@ export default function AboutMe() {
                 Full Stack Open
               </a>{" "}
               2020 program, a Javascript-based web development course focusing
-              on <b>React, Redux,</b> and <b> Typescript</b>.
+              on <b>React, Redux, node.js</b> and <b> Typescript</b>.
             </p>
             <br></br>
             <p>
               Like any modern web developer, I've since supplemented my
-              education with Udemy and{" "}
+              education with Udemy courses,{" "}
               <a
                 href="https://wesbos.com/"
                 className="text-purple-900 font-bold tracking-tight"
               >
                 Wes Bos
               </a>{" "}
-              courses.
+              courses, YouTube tutorials, and Hackathon projects.
             </p>
             <br></br>
             <p>

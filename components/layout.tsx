@@ -6,7 +6,7 @@ const name = "Hi, I'm Sanja";
 const subline = "I'm a software engineer based in Leipzig, Germany";
 export const siteTitle = "Sanja Wetzel, Full Stack Web Developer";
 
-//@ts-ignore
+// @ts-ignore
 export default function Layout({ children, home }) {
   return (
     <div className="container mx-auto">
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="Sanja Wetzel, Full Stack Web Developer"
-          content="Welcome to my portfolio website built with Next.js"
+          content="I built my portfolio website with Next.js + React and TailwindCSS"
         />
         <meta
           property="og:image"
@@ -25,7 +25,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className="flex flex-col items-center mt-16">
+      <header className="flex flex-col items-center mt-20">
         {home ? (
           <>
             <Image

@@ -4,7 +4,7 @@ export default function Cards() {
       <div className="w-full p-12">
         <div className="header flex items-end justify-center mb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12">
-            <div className="transition ease-in-out delay-150 overflow-hidden shadow-lg rounded-lg h-90 w-90 md:w-80 cursor-pointer m-auto hover:-translate-y-1 hover:scale-110 duration-300">
+            <div className="transition ease-in-out delay-150 overflow-hidden shadow-md rounded-lg h-90 w-90 md:w-80 cursor-pointer m-auto hover:shadow-2xl outline outline-offset-6 duration-200">
               <a
                 href="https://fantastax.herokuapp.com/"
                 className="w-full block h-full"
@@ -31,7 +31,7 @@ export default function Cards() {
                 </div>
               </a>
             </div>
-            <div className="transition ease-in-out delay-150 overflow-hidden shadow-lg rounded-lg h-90 w-90 md:w-80 cursor-pointer m-auto hover:-translate-y-1 hover:scale-110 duration-300">
+            <div className="transition ease-in-out delay-150 overflow-hidden shadow-md rounded-lg h-90 w-90 md:w-80 cursor-pointer m-auto hover:shadow-2xl duration-200">
               <a
                 href="https://welcome.proctor-webworks.com/"
                 className="w-full block h-full"
@@ -58,7 +58,7 @@ export default function Cards() {
                 </div>
               </a>
             </div>
-            <div className="transition ease-in-out delay-150 overflow-hidden shadow-lg rounded-lg h-90 w-90 md:w-80 cursor-pointer m-auto hover:-translate-y-1 hover:scale-110 duration-300">
+            <div className="transition ease-in-out delay-150 overflow-hidden shadow-md rounded-lg h-90 w-90 md:w-80 cursor-pointer m-auto hover:shadow-2xl duration-200">
               <a
                 href="https://bike-match-sweetening.herokuapp.com/"
                 className="w-full block h-full"

@@ -1,5 +1,6 @@
 import type { AppProps } from "next/app";
 import Head from "next/head";
+import Navbar from "../components/navbar";
 import "../styles/base.css";
 
 function SweeteningApp({ Component, pageProps }: AppProps) {
@@ -13,6 +14,7 @@ function SweeteningApp({ Component, pageProps }: AppProps) {
           href="images/favicon.png"
         />
       </Head>
+      <Navbar />
       <Component {...pageProps} />
     </>
   );
