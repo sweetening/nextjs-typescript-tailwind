@@ -25,9 +25,6 @@ const Navbar = () => {
                 <path d="M14.02 4.77v7.8H9.33V8.8h-2.5v3.77H2.14v-7.8h11.88z"></path>
                 <path d="M16.16 5.82H0L8.08 0l8.08 5.82z"></path>
               </svg>
-              <h1 className="font-bold text-3xl text-black hover:text-purple-500">
-                Home
-              </h1>
             </span>
           </>
         </a>

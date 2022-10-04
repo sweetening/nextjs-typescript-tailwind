@@ -24,7 +24,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className="flex flex-col items-center mt-20">
+      <header className="flex flex-col items-center mt-12 sm:mt-20">
         {home ? (
           <>
             <Image
@@ -38,7 +38,7 @@ export default function Layout({ children, home }) {
             <h1 className="text-6xl font-extrabold tracking-tighter my-4 mx-0">
               {name}
             </h1>
-            <h3 className="text-2xl font-semibold tracking-tighter text-center mx-0">
+            <h3 className="text-2xl font-semibold tracking-tighter text-center mx-4">
               {subline}
             </h3>
           </>
