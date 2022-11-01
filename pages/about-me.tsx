@@ -71,8 +71,8 @@ export default function AboutMe() {
               >
                 Spreadshirt
               </a>{" "}
-              in Leipzig, Germany as a junior software engineer. I am also
-              available for freelance work on a contractual basis.
+              in Leipzig, Germany as a software engineer. I am also available
+              for freelance work on a contractual basis.
             </p>
             <br></br>
             <p>

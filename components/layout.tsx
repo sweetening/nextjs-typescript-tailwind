@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const name = "Hi, I'm Sanja";
 const subline = "I'm a software engineer based in Leipzig, Germany";
-export const siteTitle = "Sanja Wetzel, Full Stack Web Developer";
+export const siteTitle = "Sanja Wetzel, Frontend Web Developer";
 
 // @ts-ignore
 export default function Layout({ children, home }) {
@@ -12,7 +12,7 @@ export default function Layout({ children, home }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
-          name="Sanja Wetzel, Full Stack Web Developer"
+          name="Sanja Wetzel, Frontend Web Developer"
           content="I built my portfolio website with Next.js + React and TailwindCSS"
         />
         <meta
