@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Cards from "../components/cards";
 
 export default function RecentProjects() {
   return (
@@ -10,9 +9,14 @@ export default function RecentProjects() {
       <div className="container mx-auto mt-12">
         <section className="flex flex-col items-center mt-24">
           <h1 className="text-2xl font-extrabold tracking-tighter my-4 mx-0">
-            Here's what I've been working on
+            🚧 Under Construction 🚧
           </h1>
-          <Cards />
+          <p>Sorry, please check back again later. In the meantime, enjoy this <a
+                href="https://www.spreadshirt.de/game404/"
+                className="text-purple-900 font-bold tracking-tight"
+              >
+                404 game
+              </a> to pass the time.</p>
         </section>
       </div>
     </>
