@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 const name = "Hi, I'm Sanja";
-const subline = "I'm a software engineer based in Germany";
+const subline = "Software Engineer based in Leipzig, Germany";
 export const siteTitle = "Sanja Wetzel, Software Engineer";
 
 // @ts-ignore

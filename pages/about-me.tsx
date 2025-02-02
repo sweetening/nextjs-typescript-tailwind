@@ -1,6 +1,6 @@
 import Head from "next/head";
-import { GrLinkTop } from "react-icons/gr";
 import Layout from "../components/layout";
+import Footer from "../components/footer";
 
 export default function AboutMe() {
   return (
@@ -12,8 +12,8 @@ export default function AboutMe() {
         <div className="container mx-auto mt-12">
           <section className="text-lg container mx-auto md:px-40 px-12 pb-20">
             <p>
-              I am a frontend developer with 5 years experience in Next.js,
-              React + Typescript, and Javascript. I am passionate about building
+              I'm a frontend dev with 5 years experience in Next.js, React +
+              Typescript, and Javascript. I am passionate about building
               beautiful, accessible digital products that scale, and I strive to
               be a friendly, motivated colleague. I am always seeking
               opportunities to collaborate, especially with people and
@@ -33,6 +33,7 @@ export default function AboutMe() {
           </section>
         </div>
       </Layout>
+      <Footer />
     </>
   );
 }
