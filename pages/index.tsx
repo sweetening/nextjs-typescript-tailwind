@@ -10,7 +10,6 @@ export default function Home() {
           <title>{siteTitle}</title>
         </Head>
       </Layout>
-      <Footer />
     </>
   );
 }

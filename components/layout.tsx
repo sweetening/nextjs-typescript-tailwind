@@ -2,8 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 
 const name = "Hi, I'm Sanja";
-const subline = "I'm a software engineer based in Leipzig, Germany";
-export const siteTitle = "Sanja Wetzel, Frontend Web Developer";
+const subline = "I'm a software engineer based in Germany";
+export const siteTitle = "Sanja Wetzel, Software Engineer";
 
 // @ts-ignore
 export default function Layout({ children, home }) {
@@ -12,8 +12,8 @@ export default function Layout({ children, home }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
-          name="Sanja Wetzel, Frontend Web Developer"
-          content="I built my portfolio website with Next.js + React and TailwindCSS"
+          name="Sanja Wetzel, Software Engineer"
+          content="Powered by Next.js + React and TailwindCSS"
         />
         <meta
           property="og:image"

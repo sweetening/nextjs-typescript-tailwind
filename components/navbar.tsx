@@ -33,9 +33,6 @@ const Navbar = () => {
             <Link href="/about-me">About Me</Link>
           </li>
           <li className="p-4 text-black hover:text-purple-500">
-            <Link href="/recent-projects">Recent Projects</Link>
-          </li>
-          <li className="p-4 text-black hover:text-purple-500">
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
@@ -67,12 +64,6 @@ const Navbar = () => {
               className="p-4 text-3xl focus:text-purple-500"
             >
               <Link href="/about-me">About Me</Link>
-            </li>
-            <li
-              onClick={handleMobile}
-              className="p-4 text-3xl focus:text-purple-500"
-            >
-              <Link href="/recent-projects">Recent Projects</Link>
             </li>
             <li
               onClick={handleMobile}
