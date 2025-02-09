@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
     <>
-      <footer className="bg-none w-full py-24 self-end">
+      <footer className="bg-none w-full static">
         <div className="max-w-screen-xl mx-auto px-4">
-          <div className="pt-8 flex max-w-xs mx-auto items-center justify-center">
+          <div className="absolute left-0 right-0 bottom-0 py-8 flex max-w-xs mx-auto items-center justify-center">
             <a
               href="https://www.linkedin.com/in/sanja-wetzel"
               className="transition ease-in-out delay-50 text-gray-600 hover:text-purple-500 duration-200"

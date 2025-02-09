@@ -2,7 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 
 const name = "Hi, I'm Sanja";
-const subline = "Software Engineer based in Leipzig, Germany";
+const shortBio =
+  "I’m a frontend engineer based in Leipzig, Germany with a passion for building beautiful, accessible digital products that scale, and I'm always seeking opportunities to collaborate with people and organizations that share a strong commitment to social causes.";
 export const siteTitle = "Sanja Wetzel, Software Engineer";
 
 // @ts-ignore
@@ -24,8 +25,8 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className="flex flex-col items-center mt-12 sm:mt-20">
-        {home ? (
+      <header className="flex flex-col md:flex-row items-center mt-12 md:mt-24 justify-center">
+        {home && (
           <>
             <Image
               priority
@@ -35,22 +36,15 @@ export default function Layout({ children, home }) {
               width={244}
               alt={name}
             />
-            <h1 className="text-6xl font-extrabold tracking-tighter my-4 mx-0">
-              {name}
-            </h1>
-            <h3 className="text-2xl font-semibold tracking-tighter text-center mx-4">
-              {subline}
-            </h3>
+            <div className="flex flex-col text-center text-center md:text-right">
+              <h2 className="text-6xl font-semibold tracking-tighter my-4 mx-6 md:mx-24">
+                {name}
+              </h2>
+              <h3 className="text-2xl font-medium tracking-tighter mx-6 md:mx-24 max-w-lg my-4">
+                {shortBio}
+              </h3>
+            </div>
           </>
-        ) : (
-          <Image
-            priority
-            src="/images/profile-dots-round.png"
-            className="rounded-full shadow-md z-2"
-            height={208}
-            width={208}
-            alt={name}
-          />
         )}
       </header>
       <main>{children}</main>
