@@ -41,7 +41,7 @@ export default function AboutMe() {
                 ></img>
               </Link>
               <h4 className="text-2xl font-semibold tracking-tighter pt-4 hover:text-purple-500">
-                <Link href="/work">Ines Berlin</Link>
+                <Link href="/work">INES Berlin</Link>
               </h4>
               <h5 className="text-xl font-md tracking-tightest">
                 Freelance Web Developer
