@@ -10,7 +10,7 @@ export default function AboutMe() {
       </Head>
       <Layout home>
         <div className="container flex flex-row mx-auto mt-12 justify-evenly">
-          <section className="text-lg flex flex-col md:flex-row w-full px-6">
+          <section className="text-lg flex flex-col md:flex-row w-full px-6 pb-12">
             <div className="flex flex-col mx-auto px-4 md:w-3/4">
               <h3 className="text-2xl font-bold tracking-tighter max-w-lg my-4">
                 Present
@@ -22,9 +22,12 @@ export default function AboutMe() {
                   alt="Press photo for Spreadshirt"
                 ></img>
               </Link>
-              <h4 className="text-2xl font-md tracking-tighter max-w-lg my-4 hover:text-purple-500">
-                <Link href="/work">Software engineer at Spread Group</Link>
+              <h4 className="text-2xl font-semibold tracking-tighter pt-4 hover:text-purple-500">
+                <Link href="/work">Spread Group</Link>
               </h4>
+              <h5 className="text-xl font-md tracking-tightest">
+                Software Engineer
+              </h5>
             </div>
             <div className="flex flex-col mx-auto mt-6 md:mt-0 md:w-3/4 px-4">
               <h3 className="text-2xl font-bold tracking-tighter max-w-lg my-4">
@@ -37,9 +40,12 @@ export default function AboutMe() {
                   alt="INES Berlin"
                 ></img>
               </Link>
-              <h4 className="text-2xl font-md tracking-tighter max-w-lg my-4 hover:text-purple-500">
-                <Link href="/work">Freelance Web Developer at Ines Berlin</Link>
+              <h4 className="text-2xl font-semibold tracking-tighter pt-4 hover:text-purple-500">
+                <Link href="/work">Ines Berlin</Link>
               </h4>
+              <h5 className="text-xl font-md tracking-tightest">
+                Freelance Web Developer
+              </h5>
             </div>
             <div className="flex flex-col mx-auto mt-6 md:mt-16 md:w-3/4 px-4">
               <Link href="/work">
@@ -49,11 +55,12 @@ export default function AboutMe() {
                   alt="SFMOMA Blue Bottle"
                 ></img>
               </Link>
-              <h4 className="text-2xl font-md tracking-tighter max-w-lg my-4 hover:text-purple-500">
-                <Link href="/work">
-                  Retail Manager and Barista at Blue Bottle Coffee
-                </Link>
+              <h4 className="text-2xl font-semibold tracking-tighter pt-4 md:pt-10 hover:text-purple-500">
+                <Link href="/work">Blue Bottle Coffee</Link>
               </h4>
+              <h5 className="text-xl font-md tracking-tightest">
+                Retail Manager
+              </h5>
             </div>
           </section>
         </div>

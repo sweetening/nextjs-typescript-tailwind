@@ -16,9 +16,12 @@ export default function Work() {
             src="https://spreadshirt-res.cloudinary.com/images/f_auto,q_auto/v1729073910/PR/Mayra/53958338005_d52d332d7d_o-2/53958338005_d52d332d7d_o-2.jpg?_i=AA"
             alt="press photo for Spreadshirt"
           ></img>
-          <h4 className="text-2xl font-md tracking-tighter max-w-lg my-4">
-            Software engineer at Spread Group
+          <h4 className="text-2xl font-semibold tracking-tighter pt-4">
+            Spread Group
           </h4>
+          <h5 className="text-xl font-md tracking-tightest pb-6">
+            Software Engineer
+          </h5>
           <p>
             I am a software engineer at{" "}
             <a
@@ -49,9 +52,12 @@ export default function Work() {
             src="/images/ines-berlin.png"
             className="w-full"
           />
-          <h4 className="text-2xl font-md tracking-tighter max-w-lg my-4">
-            Freelance Web Developer at INES Berlin
+          <h4 className="text-2xl font-semibold tracking-tighter pt-4">
+            INES Berlin
           </h4>
+          <h5 className="text-xl font-md tracking-tightest pb-6">
+            Freelance Web Developer
+          </h5>
           <p>
             I worked on a contractual basis for{" "}
             <a
@@ -69,9 +75,12 @@ export default function Work() {
             src="https://marikoreed.com/wp-content/uploads/2015/03/sfmoma_web_06.jpg"
             alt="SFMOMA Blue Bottle"
           ></img>
-          <h4 className="text-2xl font-md tracking-tighter max-w-lg my-4">
-            Retail Manager and Barista at Blue Bottle Coffee
+          <h4 className="text-2xl font-semibold tracking-tighter pt-4">
+            Blue Bottle Coffee
           </h4>
+          <h5 className="text-xl font-md tracking-tightest pb-6">
+            Retail Manager
+          </h5>
           <p>
             I began as a barista and quickly moved into a retail manager role
             during my time working for{" "}
