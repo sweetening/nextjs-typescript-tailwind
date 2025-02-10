@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <footer className="bg-none w-full static">
+      <footer className="bg-none w-full sticky md:static">
         <div className="max-w-screen-xl mx-auto px-4">
           <div className="absolute left-0 right-0 bottom-0 py-8 flex max-w-xs mx-auto items-center justify-center">
             <a

@@ -25,7 +25,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className="flex flex-col md:flex-row items-center mt-12 md:mt-24 justify-center">
+      <header className="flex flex-col md:flex-row items-center my-12 md:mt-24 justify-center">
         {home && (
           <>
             <Image
@@ -37,10 +37,10 @@ export default function Layout({ children, home }) {
               alt={name}
             />
             <div className="flex flex-col text-center text-center md:text-right">
-              <h2 className="text-6xl font-semibold tracking-tighter my-4 mx-6 md:mx-24">
+              <h2 className="text-6xl font-semibold tracking-tighter my-4 mx-6 md:ml-16 md:mr-6">
                 {name}
               </h2>
-              <h3 className="text-2xl font-medium tracking-tighter mx-6 md:mx-24 max-w-lg my-4">
+              <h3 className="text-2xl font-medium tracking-tighter mx-6 max-w-lg md:ml-16 md:mr-6 my-6">
                 {shortBio}
               </h3>
             </div>

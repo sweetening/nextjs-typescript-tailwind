@@ -15,7 +15,7 @@ const Navbar = () => {
         <a href="/">
           <>
             <span className="flex font-3xl cursor-pointer">
-              <h1 className="text-2xl font-semibold tracking-tighter text-center mx-4 hover:text-purple-500">
+              <h1 className="text-2xl font-semibold tracking-tighter text-center hover:text-purple-500">
                 Sanja Wetzel
               </h1>
             </span>
