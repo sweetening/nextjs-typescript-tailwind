@@ -6,7 +6,7 @@ export default function Form() {
         method="POST"
         className="flex w-full max-w-sm md:max-w-xl space-x-3"
       >
-        <div className="w-full max-w-4xl px-5 py-10 m-auto mt-10 shadow-lg bg-white rounded-lg">
+        <div className="w-full max-w-4xl px-5 py-10 mx-auto my-16 shadow-lg bg-white rounded-lg">
           <div className="mb-6 text-3xl font-light text-center text-gray-800">
             Get in touch
           </div>
