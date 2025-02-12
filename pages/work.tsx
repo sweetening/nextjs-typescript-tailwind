@@ -6,7 +6,7 @@ export default function Work() {
       <Head>
         <title>Work</title>
       </Head>
-      <div className="container mx-auto mt-12">
+      <div className="container mx-auto my-12">
         <section className="text-lg container mx-auto text-left md:px-12 px-6 pb-20">
           <h3 className="text-2xl font-bold tracking-tighter max-w-lg my-4 pb-6">
             Present

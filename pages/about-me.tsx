@@ -9,7 +9,7 @@ export default function AboutMe() {
         <title>About</title>
       </Head>
       <Layout home>
-        <div className="container flex flex-row mx-auto mt-12 justify-evenly">
+        <div className="container flex flex-row mx-auto my-12 justify-evenly">
           <section className="text-lg flex flex-col md:flex-row w-full px-6 pb-12">
             <div className="flex flex-col mx-auto px-4 md:w-3/4">
               <h3 className="text-2xl font-bold tracking-tighter max-w-lg my-4">

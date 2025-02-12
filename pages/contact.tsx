@@ -8,7 +8,7 @@ export default function Contact() {
       <Head>
         <title>Contact</title>
       </Head>
-      <div className="container mx-auto mt-16 flex justify-center">
+      <div className="container mx-auto my-16 flex justify-center">
         <Form />
       </div>
       <Footer />
